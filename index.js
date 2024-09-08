@@ -24,7 +24,7 @@ async function linkgen(longlink, path) {
     path = nanoid();
   }
   let bodyops = {
-    domain: 'mwsl.ddns.net',
+    domain: 'u.mwsys.xyz',
     path: 'p/' + path,
     originalURL: longlink,
     title: 'public:' + path,
