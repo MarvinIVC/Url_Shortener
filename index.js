@@ -182,7 +182,7 @@ app.get('/', (req, res) => {
   </head>
   <body>
     <div class="container">
-      <h1>Marvin's URL Shortening Service</h1>
+      <h1>EzURL</h1>
       <form action="/" method="post">
         <label for="longLink">Long Link:</label>
         <input type="text" id="longLink" name="longLink" required>
